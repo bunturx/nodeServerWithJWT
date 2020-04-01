@@ -28,8 +28,8 @@ More documentation: [jwt.io](https://jwt.io/introduction/)
 
 ### In this example repo you have a some of endpoints
 ___
-1- POST
--  /login
+**1- POST**
+**-  /login**
 
 With this method you obtain the jwt to authenticate and use the private endpont. 
 Remember, you need send the "user" and "pass" values in the body of the request. 
@@ -53,8 +53,8 @@ and then... you obtain a valid JWT for the next endpoint
 With the valid JWT you can use it for the endpoint:
 <br>
 ___
-2- GET
-- /private
+**2- GET**
+**- /private**
 
 You only need send the Authorization params in the Header of your Request with the JWT obtain in the previous point.
 
@@ -67,7 +67,8 @@ and then... you obtain the private message:
 ```
 
 ___ 
-3- GET 
-- /public 
+**3- GET**
+**- /public**
+
 For the endpoint  you not need the jwt for show the message
 
